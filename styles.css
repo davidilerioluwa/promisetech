@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+
+.navbars {
+    overflow: hidden;
+    background-color: blue;
+    margin: 0;
+}
+.navbars a{
+    float: left;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    border-width: 0px 1px 0px 0px;
+    margin: 0;
+}
+.navbars a:hover{
+    background-color: black;
+    color: white;
+}
+.navbarmargin{
+    margin: -7px;
+}
+.navbars .logo {
+    float: right;
+    height: 25px;
+    width: 50px;
+    padding: -8px;
+    margin: 0;
+}
+.navbars .sign_up{
+    float: right;
+    padding: 14px;
+    border-width: 0px 0px 0px 1px;
+}
+.navbars .login{
+    float: right;
+    padding: 14px;
+    border-width: 0px 1px 0px 1px;
+}
+.top {
+    width: 80%;
+    margin: 20px 10%;
+    font-size: 1.5625em;
+}
+.middle {
+    background-image:  url(future.jpg); 
+    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 10% 0 10% ;
+    min-width: 500px;
+    
+}
+.future {
+    color: rgba(252, 252, 252, 0.863);
+    padding: 10PX;
+    text-shadow: black;
+    position: relative;
+    top: 400px;
+    height: 80px;
+    width: 35%;
+    overflow: scroll;
+    margin: 0px;
+   
+}
+    .button {
+  
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 1.253em;
+        float: right;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: fit-content;
+        border: thin white solid;
+        position: relative;
+        top:350px;
+        right: 20px;
+        margin: 0;
+      }
+      
+.button:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(top bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+
+      .mission {
+          font-size: large;
+          margin: 100px 10% 0px 10%;
+      }
+      .products{
+        margin: 100px 10% 0px 10%;
+    }
